@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap")
+    format("M+PLUS+Rounded+1c");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 600px) {
+  .menu-button {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+#headerItem {
+  margin-left: 15px;
+}
